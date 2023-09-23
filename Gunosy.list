@@ -1,4 +1,5 @@
 # > Gunosy / グノシー
-DOMAIN-SUFFIX,gunosy.com,Gunosy
-DOMAIN-SUFFIX,amazonaws.com,Gunosy
-DOMAIN-SUFFIX,tritondigital.com,Gunosy
+HOST-SUFFIX,gunosy.com,Gunosy
+HOST-SUFFIX,amazonaws.com,Gunosy
+HOST-SUFFIX,tritondigital.com,Gunosy
+HOST-SUFFIX,omnycontent.com,Gunosy
