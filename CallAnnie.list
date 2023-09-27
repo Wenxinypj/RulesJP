@@ -1,4 +1,4 @@
 # > CallAnnie
 HOST,entry.callannie.ai,CallAnnie
 HOST-SUFFIX,callannie.ai,CallAnnie
-HOST-SUFFIX,callher-76cfb.cloudfunctions.net,CallAnnie
+HOST,us-central1-callher-76cfb.cloudfunctions.net,CallAnnie
