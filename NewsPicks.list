@@ -1,13 +1,3 @@
-# > YahooJP
-HOST-SUFFIX,yahooapis.jp,YahooJP
-HOST-SUFFIX,yimg.jp,YahooJP
-HOST-SUFFIX,s.yimg.jp,YahooJP
-HOST-SUFFIX,yahoo.co.jp,YahooJP
-HOST-KEYWORD,yahoo.co.jp,YahooJP
-HOST-KEYWORD,yahoo.jp,YahooJP
-HOST-KEYWORD,clarity.ms,YahooJP
-HOST-SUFFIX,media.ylive.jp,YahooJP
-HOST-SUFFIX,brightcove.com,YahooJP
-HOST,edge.api.brightcove.com,YahooJP
-HOST,players.brightcove.net,YahooJP
-HOST-SUFFIX,digicert.com,YahooJP
+# > NewsPicks
+HOST-SUFFIX,newspicks.com,NewsPicks
+HOST,vod.newspicks.com,NewsPicks
