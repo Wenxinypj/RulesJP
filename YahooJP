@@ -1,4 +1,5 @@
 # > SmartNews
 HOST-SUFFIX,yahooapis.jp,YahooJP
 HOST-SUFFIX,yimg.jp,YahooJP
+HOST-SUFFIX,s.yimg.jp,YahooJP
 HOST-SUFFIx,yahoo.co.jp,YahooJP
