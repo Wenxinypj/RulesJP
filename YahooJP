@@ -6,5 +6,5 @@ HOST-SUFFIX,yahoo.co.jp,YahooJP
 HOST-KEYWORD,yahoo.co.jp,YahooJP
 HOST-KEYWORD,yahoo.jp,YahooJP
 HOST-KEYWORD,clarity.ms,YahooJP
-HOST-KEYWORD,media.ylive.jp,YahooJP
-HOST-KEYWORD,brightcove.com,YahooJP
+HOST-SUFFIX,media.ylive.jp,YahooJP
+HOST-SUFFIX,brightcove.com,YahooJP
