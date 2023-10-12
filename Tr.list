@@ -1,6 +1,6 @@
 # NAME: Tr
 HOST-SUFFIX,dogatch.jp,Tr
-HOST-SUFFIX,edge.api.brightcove.com,Tr
+HOST,edge.api.brightcove.com,Tr
 HOST-SUFFIX,gorin.jp,Tr
 HOST-SUFFIX,screens-lab.jp,Tr
 HOST-SUFFIX,tver.co.jp,Tr
@@ -17,3 +17,4 @@ HOST-SUFFIX,reproio.com,Tr
 HOST-SUFFIX,tokyo.in.treasuredata.com,Tr
 HOST-SUFFIX,interactive-circle.jp,Tr
 USER-AGENT,TVer-Release*,Tr
+HOST-SUFFIX,prod.boltdns.net,Tr
