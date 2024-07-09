@@ -9,8 +9,6 @@ HOST-SUFFIX,streaks.jp,Tr
 HOST-SUFFIX,mobile-collector.newrelic.com,Tr
 HOST-SUFFIX,brightcove.com,Tr
 HOST-SUFFIX,brightcove.net,Tr
-HOST-SUFFIX,brightcove.com,Tr
-HOST,edge.api.brightcove.com,Tr
 HOST,players.brightcove.net,Tr
 HOST-SUFFIX,y.one.impact-ad.jp,Tr
 HOST-SUFFIX,webcdn.stream.ne.jp,Tr
@@ -25,7 +23,6 @@ HOST-SUFFIX,manifest.prod.boltdns.net,Tr
 HOST-SUFFIX,tv-tokyo.co.jp,Tr
 HOST-SUFFIX,videohub.tv,Tr
 HOST-SUFFIX,treasuredata.com,Tr
-HOST-SUFFIX,newrelic.com,Tr
 HOST-SUFFIX,interactive-circle.jp,Tr
 HOST,prod.boltdns.net,Tr
 HOST-SUFFIX,boltdns.net,Tr
@@ -38,7 +35,3 @@ HOST-SUFFIX,aod.my.com,Tr
 HOST-SUFFIX,tver.jp.edgekey.net,Tr
 HOST-SUFFIX,tver-api-jp.global.ssl.fastly.net,Tr
 HOST-SUFFIX,tver-assets-jp.global.ssl.fastly.net,Tr
-DNS,brightcove.com,Tr
-DNS,brightcove.net,Tr
-DNS,tver.jp,Tr
-DNS,tver.co.jp,Tr
