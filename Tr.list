@@ -28,3 +28,8 @@ HOST-SUFFIX,treasuredata.com,Tr
 HOST-SUFFIX,newrelic.com,Tr
 HOST-SUFFIX,interactive-circle.jp,Tr
 HOST,prod.boltdns.net,Tr
+HOST-SUFFIX,boltdns.net,Tr
+HOST-SUFFIX,cdn.brightcove.com,Tr
+HOST-SUFFIX,b.cdn.brightcove.com,Tr
+HOST-SUFFIX,bcovlive-a.akamaihd.net,Tr
+HOST-SUFFIX,bcovlive-a.akamaihd.net,Tr
