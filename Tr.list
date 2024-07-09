@@ -1,6 +1,7 @@
 # NAME: Tr
 HOST-SUFFIX,dogatch.jp,Tr
 HOST,edge.api.brightcove.com,Tr
+HOST,players.brightcove.net,Tr
 HOST-SUFFIX,gorin.jp,Tr
 HOST-SUFFIX,screens-lab.jp,Tr
 HOST-SUFFIX,tver.co.jp,Tr
@@ -9,7 +10,6 @@ HOST-SUFFIX,streaks.jp,Tr
 HOST-SUFFIX,mobile-collector.newrelic.com,Tr
 HOST-SUFFIX,brightcove.com,Tr
 HOST-SUFFIX,brightcove.net,Tr
-HOST,players.brightcove.net,Tr
 HOST-SUFFIX,y.one.impact-ad.jp,Tr
 HOST-SUFFIX,webcdn.stream.ne.jp,Tr
 HOST-SUFFIX,ad.generation.jp,Tr
