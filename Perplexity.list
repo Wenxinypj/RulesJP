@@ -17,7 +17,5 @@ HOST-SUFFIX,edgesuite.net,Perplexity
 HOST-SUFFIX,githubusercontent.com,Perplexity
 HOST-SUFFIX,github.com,Perplexity
 HOST-SUFFIX,cdn-perplexity.ai,Perplexity
-HOST-KEYWORD,googleapis,Perplexity
-HOST-KEYWORD,gstatic,Perplexity
-HOST-KEYWORD,digicert.com,Perplexity
+HOST-SUFFIX,digicert.com,Perplexity
 HOST,img.youyube.com,Perplexity
