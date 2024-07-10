@@ -20,3 +20,7 @@ HOST-SUFFIX,cdn-perplexity.ai,Perplexity
 HOST,img.youyube.com,Perplexity
 HOST-KEYWORD,googleapis,Perplexity
 HOST-KEYWORD,static,Perplexity
+HOST, imagedelivery.net,Perplexity
+HOST, api.revenuecat.com,Perplexity
+HOST, 342251b-beta.perplexity.ai,Perplexity
+HOST,www.perplexity.ai,Perplexity
