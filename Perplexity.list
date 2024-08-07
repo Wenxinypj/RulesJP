@@ -13,8 +13,6 @@ HOST-SUFFIX,fastly.net,Perplexity
 HOST-SUFFIX,akamaihd.net,Perplexity
 HOST-SUFFIX,edgekey.net,Perplexity
 HOST-SUFFIX,edgesuite.net,Perplexity
-HOST-SUFFIX,githubusercontent.com,Perplexity
-HOST-SUFFIX,github.com,Perplexity
 HOST-SUFFIX,cdn-perplexity.ai,Perplexity
 HOST,img.youyube.com,Perplexity
 HOST-KEYWORD,googleapis,Perplexity
