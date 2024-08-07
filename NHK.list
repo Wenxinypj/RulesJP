@@ -1,5 +1,6 @@
 # NAME: NHK
 HOST-SUFFIX,nhk.or.jp,NHK
+HOST,nhk.jp,NHK
 HOST-SUFFIX,nhk.jp,NHK
 HOST,apps.nhk.jp,NHK
 HOST,plus.nhk.jp,NHK
