@@ -10,3 +10,5 @@ HOST,api-plus.nhk.jp,NHK
 HOST,provision-plus.nhk.jp,NHK
 HOST,location-plus.nhk.jp,NHK
 HOST-SUFFIX,youboranqs01.com,NHK
+HOST-SUFFIX,nhk-ondemand.jp,NHK
+HOST-SUFFIX,smartdrm.net,NHK
