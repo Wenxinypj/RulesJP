@@ -17,5 +17,4 @@ HOST-SUFFIX,nhk-ondemand.jp,NHK
 HOST-SUFFIX,smartdrm.net,NHK
 HOST-SUFFIX,hikaritv.net,NHK
 HOST,mtcs.nhk-ondemand.jp,NHK
-URL-REGEX,https://www.nhk-ondemand.jp/.*\.m3u8,NHK
 HOST-SUFFIX,*.nhk.or.jp,NHK
