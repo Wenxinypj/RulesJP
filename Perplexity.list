@@ -1,2 +1,23 @@
 # NAME: Perplexity
+HOST-SUFFIX,perplexity.ai,Perplexity
+HOST-SUFFIX,gstatic.com,Perplexity
+HOST-SUFFIX,lencr.org,Perplexity
+HOST-SUFFIX,rd.com,Perplexity
+HOST,rd.com,Perplexity
+HOST-SUFFIX,googleapis.com,Perplexity
+HOST-SUFFIX,cloudflare.com,Perplexity
+HOST-SUFFIX,cloudfront.net,Perplexity
+HOST-SUFFIX,aws.amazon.com,Perplexity
+HOST-SUFFIX,amazonaws.com,Perplexity
+HOST-SUFFIX,fastly.net,Perplexity
+HOST-SUFFIX,akamaihd.net,Perplexity
+HOST-SUFFIX,edgekey.net,Perplexity
+HOST-SUFFIX,edgesuite.net,Perplexity
+HOST-SUFFIX,cdn-perplexity.ai,Perplexity
+HOST,img.youyube.com,Perplexity
+HOST-KEYWORD,googleapis,Perplexity
+HOST-KEYWORD,static,Perplexity
+HOST, imagedelivery.net,Perplexity
 HOST, api.revenuecat.com,Perplexity
+HOST, 342251b-beta.perplexity.ai,Perplexity
+HOST,www.perplexity.ai,Perplexity
