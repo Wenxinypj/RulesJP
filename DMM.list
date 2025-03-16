@@ -1,4 +1,6 @@
 # NAME: DMM
+USER-AGENT,DMM-Release*,DMM
+USER-AGENT,DMM*,DMM
 HOST-SUFFIX,dmm.com,DMM
 HOST,edge.api.brightcove.com,Tver
 HOST,players.brightcove.net,Tver
