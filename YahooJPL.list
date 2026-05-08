@@ -1,0 +1,13 @@
+# > YahooJP(Loon)
+DOMAIN-SUFFIX,yahooapis.jp,YahooJP
+DOMAIN-SUFFIX,yimg.jp,YahooJP
+DOMAIN-SUFFIX,s.yimg.jp,YahooJP
+DOMAIN-SUFFIX,yahoo.co.jp,YahooJP
+DOMAIN-SUFFIX-KEYWORD,yahoo.co.jp,YahooJP
+DOMAIN-SUFFIX-KEYWORD,yahoo.jp,YahooJP
+DOMAIN-SUFFIX-KEYWORD,clarity.ms,YahooJP
+DOMAIN-SUFFIX,media.ylive.jp,YahooJP
+DOMAIN-SUFFIX,brightcove.com,YahooJP
+DOMAIN-SUFFIX,edge.api.brightcove.com,YahooJP
+DOMAIN-SUFFIX,players.brightcove.net,YahooJP
+DOMAIN-SUFFIX,digicert.com,YahooJP
