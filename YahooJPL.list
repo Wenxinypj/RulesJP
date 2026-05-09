@@ -11,3 +11,6 @@ DOMAIN-SUFFIX,brightcove.com,YahooJP
 DOMAIN-SUFFIX,edge.api.brightcove.com,YahooJP
 DOMAIN-SUFFIX,players.brightcove.net,YahooJP
 DOMAIN-SUFFIX,digicert.com,YahooJP
+# > NewsPicks
+DOMAIN-SUFFIX,newspicks.com
+DOMAIN-SUFFIX,vod.newspicks.com
