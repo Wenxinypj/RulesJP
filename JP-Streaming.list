@@ -1,0 +1,100 @@
+# 日本流媒体分流集合
+# Services: TVer / FOD / U-NEXT / Hulu Japan / Telasa / DMM / NHK ONE / AbemaTV
+# Date: 2026-05-16
+
+# ============================================
+# > TVer（日本5大电视台联合流媒体）
+# 新视频平台 Streaks（2025年3月起），地区检测严格
+# ============================================
+HOST-SUFFIX,tver.jp,日本流媒体
+HOST-SUFFIX,boltdns.net,日本流媒体
+HOST-SUFFIX,brightcove.net,日本流媒体
+HOST,edge.api.brightcove.com,日本流媒体
+HOST,players.brightcove.net,日本流媒体
+HOST-SUFFIX,conviva.com,日本流媒体
+HOST-SUFFIX,interactive-circle.jp,日本流媒体
+
+# ============================================
+# > FOD（フジテレビオンデマンド）
+# ============================================
+USER-AGENT,FOD*,日本流媒体
+USER-AGENT,*FOD/*,日本流媒体
+HOST-SUFFIX,fujitv.co.jp,日本流媒体
+HOST,fod.zendesk.com,日本流媒体
+HOST,measure.ic.tver.jp,日本流媒体
+
+# ============================================
+# > U-NEXT（日本最大VOD平台，地区检测严格）
+# ============================================
+HOST-SUFFIX,unext.jp,日本流媒体
+HOST-SUFFIX,nxtv.jp,日本流媒体
+HOST-KEYWORD,nxtv-jp.akamaized.net,日本流媒体
+
+# ============================================
+# > Hulu Japan（日本テレビ系，反VPN严格）
+# 2019年9月起从 happyon.jp 改回 hulu.jp
+# ============================================
+HOST-SUFFIX,hulu.jp,日本流媒体
+HOST-SUFFIX,happyon.jp,日本流媒体
+HOST-SUFFIX,hjholdings.jp,日本流媒体
+HOST-SUFFIX,yb.uncn.jp,日本流媒体
+
+# ============================================
+# > Telasa（KDDI × TV Asahi 合资SVOD）
+# 前身为 au Video Pass（2020年4月改名）
+# ============================================
+HOST-SUFFIX,telasa.jp,日本流媒体
+HOST-SUFFIX,videopass.jp,日本流媒体
+HOST-SUFFIX,auone.jp,日本流媒体
+HOST-SUFFIX,id.auone-net.jp,日本流媒体
+HOST,connect.auone.jp,日本流媒体
+HOST,auid.kddi.com,日本流媒体
+HOST-SUFFIX,blendvision.com,日本流媒体
+
+# ============================================
+# > DMM（综合娱乐平台，含 DMM TV / FANZA）
+# ============================================
+HOST-SUFFIX,dmm.com,日本流媒体
+HOST-SUFFIX,dmm.co.jp,日本流媒体
+HOST-SUFFIX,dmm-extension.com,日本流媒体
+HOST-SUFFIX,dmm-pics.com,日本流媒体
+HOST-SUFFIX,awsvideo.io,日本流媒体
+
+# ============================================
+# > NHK ONE（2025年10月起从 NHK Plus 升级）
+# 旧域名 nhk.or.jp 仍在使用
+# ============================================
+HOST-SUFFIX,nhk.jp,日本流媒体
+HOST-SUFFIX,nhk.or.jp,日本流媒体
+HOST-SUFFIX,web.nhk,日本流媒体
+
+# ============================================
+# > AbemaTV（CyberAgent 旗下网络电视）
+# 含 Ameba 系账号体系
+# ============================================
+HOST-SUFFIX,abema.tv,日本流媒体
+HOST-SUFFIX,abema.io,日本流媒体
+HOST-SUFFIX,abema-tv.com,日本流媒体
+HOST-SUFFIX,abematv.co.jp,日本流媒体
+HOST-SUFFIX,hayabusa.io,日本流媒体
+HOST-SUFFIX,hayabusa.dev,日本流媒体
+HOST-SUFFIX,hayabusa.media,日本流媒体
+HOST-KEYWORD,abematv.akamaized.net,日本流媒体
+HOST-SUFFIX,adx.promo,日本流媒体
+HOST-SUFFIX,ameba.jp,日本流媒体
+HOST-SUFFIX,ameblo.jp,日本流媒体
+HOST-SUFFIX,amebame.com,日本流媒体
+HOST-SUFFIX,amebaownd.com,日本流媒体
+HOST-SUFFIX,amebaowndme.com,日本流媒体
+HOST-SUFFIX,bucketeer.jp,日本流媒体
+HOST-SUFFIX,winticket.jp,日本流媒体
+HOST-SUFFIX,dokusho-ojikan.jp,日本流媒体
+
+# ============================================
+# > 共用 CDN / 流媒体基础设施
+# 注：这些域名被多家日本流媒体共用
+# - streaks.jp: TVer / Hulu / TBS / 日テレ等
+# - stream.ne.jp: FOD / NHK 等（NTT cdnext）
+# ============================================
+HOST-SUFFIX,streaks.jp,日本流媒体
+HOST-SUFFIX,stream.ne.jp,日本流媒体
