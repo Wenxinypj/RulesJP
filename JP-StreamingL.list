@@ -64,9 +64,13 @@ DOMAIN-SUFFIX,awsvideo.io,日本流媒体
 # > NHK ONE（2025年10月起从 NHK Plus 升级）
 # 旧域名 nhk.or.jp 仍在使用
 # ============================================
+DOMAIN-SUFFIX,nhk,日本流媒体
 DOMAIN-SUFFIX,nhk.jp,日本流媒体
 DOMAIN-SUFFIX,nhk.or.jp,日本流媒体
-DOMAIN-SUFFIX,web.nhk,日本流媒体
+DOMAIN-SUFFIX,nhk.com,日本流媒体
+DOMAIN-KEYWORD,nhks-vh,日本流媒体
+DOMAIN-KEYWORD,nhk-vh,日本流媒体
+DOMAIN-KEYWORD,nhkworld,日本流媒体
 
 # ============================================
 # > AbemaTV（CyberAgent 旗下网络电视）
