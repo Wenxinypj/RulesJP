@@ -1,0 +1,8 @@
+# > WSJ（华尔街日报）
+DOMAIN-SUFFIX,wsj.com,WSJ
+DOMAIN-SUFFIX,wsj.net,WSJ
+DOMAIN-SUFFIX,dowjones.com,WSJ
+DOMAIN-SUFFIX,dowjones.io,WSJ
+DOMAIN-SUFFIX,djimages.com,WSJ
+USER-AGENT,WSJ*,WSJ
+USER-AGENT,*WSJ*,WSJ
