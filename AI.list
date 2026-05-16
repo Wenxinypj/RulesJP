@@ -1,0 +1,48 @@
+# AI分流合集
+# author: lodepuly, fmz200
+# homepage: https://github.com/fmz200/wool_scripts
+# date: 2026-03-31
+
+# Apple Intelligence
+host-suffix, apple-relay.apple.com, AI
+host-suffix, apple-relay.fastly-edge.com, AI
+host-suffix, apple-relay.cloudflare.com, AI
+host-suffix, apple-relay.akamaized.net, AI
+host-suffix, gateway.icloud.com, AI
+host-suffix, guzzoni.apple.com, AI
+host-suffix, cp4.cloudflare.com, AI
+host-suffix, gspe1-ssl.ls.apple.com, AI
+host-suffix, apps.mzstatic.com, AI
+
+# Meta AI
+host, imagine.meta.com, AI
+host-suffix, meta.ai, AI
+
+# Perplexity AI
+host-suffix, pplx.ai, AI
+host-suffix, perplexity.ai, AI
+host-suffix, perplexity.com, AI
+host, pplx-res.cloudinary.com, AI
+
+# Mistral AI
+host, chat.mistral.ai, AI
+host, console.mistral.ai, AI
+host-suffix, mistral.ai, AI
+
+# Grok AI
+host, api.x.ai, AI
+host-suffix, x.ai, AI
+host-suffix, grok.com, AI
+
+# Trae AI
+host, trae-api-sg.mchost.guru, AI
+host-suffix, trae.ai, AI
+
+# Cloudflare AI Gateway
+host, gateway.ai.cloudflare.com, AI
+
+# Cursor
+host-suffix, cursor-cdn.com, AI
+host-suffix, cursor.com, AI
+host-suffix, cursor.sh, AI
+host-suffix, cursorapi.com, AI
