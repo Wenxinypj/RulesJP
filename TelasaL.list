@@ -1,0 +1,20 @@
+# > Telasa（KDDI × TV Asahi 合资流媒体）
+# 旗下 SVOD 服务，前身为 au Video Pass（2020年4月改名）
+# 地区检测严格，仅限日本国内访问
+
+# 主域名（覆盖 navi、www、help、search、payment 等所有子域）
+DOMAIN-SUFFIX,telasa.jp,Telasa
+
+# 视频流后端（BlendVision 平台提供）
+DOMAIN-SUFFIX,videopass.jp,Telasa
+
+# au ID 登录体系（与 KDDI/au 账号绑定）
+DOMAIN-SUFFIX,auone.jp,Telasa
+DOMAIN-SUFFIX,id.auone-net.jp,Telasa
+
+# au ID 认证 / KDDI 共用基础设施
+DOMAIN,connect.auone.jp,Telasa
+DOMAIN,auid.kddi.com,Telasa
+
+# BlendVision 视频流平台（Telasa 当前使用的流媒体技术）
+DOMAIN-SUFFIX,blendvision.com,Telasa
