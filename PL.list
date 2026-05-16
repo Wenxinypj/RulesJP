@@ -1,3 +1,19 @@
-# NAME: Perplexity
-HOST, imagedelivery.net,Perplexity
+# > Perplexity AI
+# 官方 App User-Agent（iOS / macOS 客户端）
+USER-AGENT,Perplexity*,Perplexity
+USER-AGENT,*Perplexity*,Perplexity
 
+# 主域名（覆盖 www、labs、blog、help、docs 等所有子站）
+HOST-SUFFIX,perplexity.ai,Perplexity
+
+# 旗下短域名
+HOST-SUFFIX,pplx.ai,Perplexity
+
+# Perplexity 浏览器 / 桌面客户端 CDN
+HOST-SUFFIX,perplexity.com,Perplexity
+
+# 图片资源 CDN（Cloudinary 子域，专用于 Perplexity）
+HOST,pplx-res.cloudinary.com,Perplexity
+
+# API 域名（已被 perplexity.ai 后缀覆盖，此处显式列出便于调试）
+HOST,api.perplexity.ai,Perplexity
