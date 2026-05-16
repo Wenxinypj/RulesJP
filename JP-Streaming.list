@@ -64,31 +64,28 @@ HOST-SUFFIX,awsvideo.io,日本流媒体
 # > NHK ONE（2025年10月起从 NHK Plus 升级）
 # 旧域名 nhk.or.jp 仍在使用
 # ============================================
+# > NHK ONE（完整版）
+
+# 主域名
 HOST-SUFFIX,nhk.jp,日本流媒体
 HOST-SUFFIX,nhk.or.jp,日本流媒体
 HOST-SUFFIX,web.nhk,日本流媒体
+HOST-SUFFIX,nhk.com,日本流媒体
 
-# ============================================
-# > AbemaTV（CyberAgent 旗下网络电视）
-# 含 Ameba 系账号体系
-# ============================================
-HOST-SUFFIX,abema.tv,日本流媒体
-HOST-SUFFIX,abema.io,日本流媒体
-HOST-SUFFIX,abema-tv.com,日本流媒体
-HOST-SUFFIX,abematv.co.jp,日本流媒体
-HOST-SUFFIX,hayabusa.io,日本流媒体
-HOST-SUFFIX,hayabusa.dev,日本流媒体
-HOST-SUFFIX,hayabusa.media,日本流媒体
-HOST-KEYWORD,abematv.akamaized.net,日本流媒体
-HOST-SUFFIX,adx.promo,日本流媒体
-HOST-SUFFIX,ameba.jp,日本流媒体
-HOST-SUFFIX,ameblo.jp,日本流媒体
-HOST-SUFFIX,amebame.com,日本流媒体
-HOST-SUFFIX,amebaownd.com,日本流媒体
-HOST-SUFFIX,amebaowndme.com,日本流媒体
-HOST-SUFFIX,bucketeer.jp,日本流媒体
-HOST-SUFFIX,winticket.jp,日本流媒体
-HOST-SUFFIX,dokusho-ojikan.jp,日本流媒体
+# 视频流 CDN（Akamai）
+HOST-KEYWORD,nhks-vh,日本流媒体
+HOST-KEYWORD,nhk-vh,日本流媒体
+HOST-KEYWORD,nhkworld,日本流媒体
+HOST-KEYWORD,nhkmedias,日本流媒体
+
+# Akamai 的 NHK 子域
+HOST-SUFFIX,nhk-vh.akamaihd.net,日本流媒体
+HOST-SUFFIX,nhks-vh.akamaihd.net,日本流媒体
+
+# Plus（旧版 NHK Plus，仍在运行）
+HOST-SUFFIX,plus.nhk.jp,日本流媒体
+HOST-SUFFIX,movie-s.nhk.or.jp,日本流媒体
+HOST-SUFFIX,movie-a.nhk.or.jp,日本流媒体
 
 # ============================================
 # > 共用 CDN / 流媒体基础设施
