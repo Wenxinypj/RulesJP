@@ -1,0 +1,19 @@
+# FOD（フジテレビオンデマンド）
+# Quantumult X 独立分流规则
+# Date: 2026-05-16
+
+# App User-Agent
+USER-AGENT,FOD*,FOD
+USER-AGENT,*FOD/*,FOD
+
+# 主域名（覆盖 fod.fujitv.co.jp、i.fod.fujitv.co.jp 等所有子域）
+HOST-SUFFIX,fujitv.co.jp,FOD
+
+# 客服系统
+HOST,fod.zendesk.com,FOD
+
+# CDN 流媒体后端（NTT cdnext，FOD 核心视频分发）
+HOST-SUFFIX,stream.ne.jp,FOD
+
+# 用户行为测量（与 TVer 共用）
+HOST,measure.ic.tver.jp,FOD
