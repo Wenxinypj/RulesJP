@@ -22,7 +22,7 @@ USER-AGENT,*FOD/*,日本流媒体
 DOMAIN-SUFFIX,fujitv.co.jp,日本流媒体
 DOMAIN,fod.zendesk.com,日本流媒体
 DOMAIN,measure.ic.tver.jp,日本流媒体
-
+DOMAIN-SUFFIX,j-stream.jp,日本流媒体
 # ============================================
 # > U-NEXT（日本最大VOD平台，地区检测严格）
 # ============================================
