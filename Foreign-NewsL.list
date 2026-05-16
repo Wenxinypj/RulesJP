@@ -1,5 +1,5 @@
 #!name=国外新闻
-#!desc=国外主流新闻媒体分流（WSJ / NYT / CNN / Economist / WaPo / BBC / Reuters / FT）
+#!desc=国外主流新闻媒体分流（WSJ / NYT / CNN / Economist / WaPo / BBC / Reuters / FT / Bloomberg / Forbes）
 #!date=2026-05-16
 
 # ============================================
@@ -16,7 +16,7 @@ USER-AGENT,*WSJ*,国外新闻
 
 # ============================================
 # > NYT（纽约时报 / The New York Times）
-# 含中文版（cn.nytimes.com）、Style Magazine、TimesTalks 等
+# 含中文版、Style Magazine、TimesTalks 等
 # ============================================
 DOMAIN-SUFFIX,nytimes.com,国外新闻
 DOMAIN-SUFFIX,nyt.com,国外新闻
@@ -30,7 +30,6 @@ DOMAIN-SUFFIX,nytcn.me,国外新闻
 DOMAIN-SUFFIX,nyti.ms,国外新闻
 DOMAIN-SUFFIX,timestalks.com,国外新闻
 DOMAIN-SUFFIX,tynt.com,国外新闻
-# NYT 专用 CloudFront CDN（精确子域，避免误伤其他 CloudFront 服务）
 DOMAIN-SUFFIX,d1f1eryiqyjs0r.cloudfront.net,国外新闻
 DOMAIN-SUFFIX,d3lar09xbwlsge.cloudfront.net,国外新闻
 DOMAIN-SUFFIX,d3q1qj9jzsu8nw.cloudfront.net,国外新闻
@@ -50,7 +49,6 @@ DOMAIN-SUFFIX,cnnmoney.ch,国外新闻
 
 # ============================================
 # > The Economist（经济学人）
-# 所有子域都在 economist.com 主域下，一条规则全覆盖
 # ============================================
 DOMAIN-SUFFIX,economist.com,国外新闻
 USER-AGENT,Economist*,国外新闻
@@ -58,8 +56,6 @@ USER-AGENT,*Economist*,国外新闻
 
 # ============================================
 # > Washington Post（华盛顿邮报）
-# 主域 washingtonpost.com + 内部 CDN wpdigital.net
-# arcpublishing.com 是 WaPo 自研 CMS 平台（也被其他媒体使用）
 # ============================================
 DOMAIN-SUFFIX,washingtonpost.com,国外新闻
 DOMAIN-SUFFIX,wpdigital.net,国外新闻
@@ -68,8 +64,7 @@ DOMAIN,cdn-api.arcpublishing.com,国外新闻
 
 # ============================================
 # > BBC（英国广播公司）
-# 含 BBC iPlayer、BBC News、BBC 中文、BBC Persian 等
-# 注意：BBC iPlayer 视频流走 Akamai，需要英国节点才能解锁
+# 注意：BBC iPlayer 视频流需英国节点
 # ============================================
 DOMAIN-SUFFIX,bbc,国外新闻
 DOMAIN-SUFFIX,bbc.co,国外新闻
@@ -86,7 +81,6 @@ DOMAIN-SUFFIX,bbcverticals.com,国外新闻
 DOMAIN-SUFFIX,bidi.net.uk,国外新闻
 DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,国外新闻
 DOMAIN-SUFFIX,bbcfmt.s.llnwi.net,国外新闻
-# BBC iPlayer 视频流 CDN（Akamai 专用子域）
 DOMAIN,aod-dash-uk-live.akamaized.net,国外新闻
 DOMAIN,aod-hls-uk-live.akamaized.net,国外新闻
 DOMAIN,as-dash-uk-live.akamaized.net,国外新闻
@@ -119,3 +113,37 @@ DOMAIN-SUFFIX,ft.com,国外新闻
 DOMAIN-SUFFIX,ftimg.net,国外新闻
 DOMAIN-SUFFIX,ftacademy.cn,国外新闻
 DOMAIN-SUFFIX,ftchinese.com,国外新闻
+
+# ============================================
+# > Bloomberg（彭博社）
+# 含 BusinessWeek、CityLab、BNEF、TicToc 等旗下品牌
+# ============================================
+DOMAIN-SUFFIX,bloomberg.co.kr,国外新闻
+DOMAIN-SUFFIX,bloomberg.com,国外新闻
+DOMAIN-SUFFIX,bloomberg.com.br,国外新闻
+DOMAIN-SUFFIX,bloomberg.fm,国外新闻
+DOMAIN-SUFFIX,bloomberg.tv,国外新闻
+DOMAIN-SUFFIX,bloombergapps.com,国外新闻
+DOMAIN-SUFFIX,bloombergarcade.com,国外新闻
+DOMAIN-SUFFIX,bloombergbeta.com,国外新闻
+DOMAIN-SUFFIX,blpprofessional.com,国外新闻
+DOMAIN-SUFFIX,bmia.org,国外新闻
+DOMAIN-SUFFIX,bnef.com,国外新闻
+DOMAIN-SUFFIX,businessweek.com,国外新闻
+DOMAIN-SUFFIX,businessweekmag.com,国外新闻
+DOMAIN-SUFFIX,bwbx.io,国外新闻
+DOMAIN-SUFFIX,citylab.com,国外新闻
+DOMAIN-SUFFIX,gotraffic.net,国外新闻
+DOMAIN-SUFFIX,londonmithraeum.com,国外新闻
+DOMAIN-SUFFIX,neweconomyforum.com,国外新闻
+DOMAIN-SUFFIX,newenergyfinance.com,国外新闻
+DOMAIN-SUFFIX,quicktake.video,国外新闻
+DOMAIN-SUFFIX,techatbloomberg.com,国外新闻
+DOMAIN-SUFFIX,tictoc.video,国外新闻
+
+# ============================================
+# > Forbes（福布斯）
+# ============================================
+DOMAIN-SUFFIX,forbes.com,国外新闻
+DOMAIN-SUFFIX,forbesimg.com,国外新闻
+DOMAIN-SUFFIX,forbes.net,国外新闻
