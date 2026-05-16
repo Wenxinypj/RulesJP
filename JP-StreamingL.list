@@ -109,6 +109,16 @@ DOMAIN-SUFFIX,ylive.jp,日本流媒体
 DOMAIN-SUFFIX,newspicks.com,日本流媒体
 DOMAIN-SUFFIX,newspicks.jp,日本流媒体
 # ============================================
+# > SmartNews（日本最大新闻聚合App）
+# ============================================
+DOMAIN-SUFFIX,smartnews.com,日本流媒体
+DOMAIN-SUFFIX,smartnews.co.jp,日本流媒体
+DOMAIN-SUFFIX,smartnews.jp,日本流媒体
+DOMAIN-SUFFIX,smartnews.be,日本流媒体
+DOMAIN-SUFFIX,smartnews-ads.com,日本流媒体
+USER-AGENT,SmartNews*,日本流媒体
+USER-AGENT,*SmartNews*,日本流媒体
+# ============================================
 # > 共用 CDN / 流媒体基础设施
 # 注：这些域名被多家日本流媒体共用
 # - streaks.jp: TVer / Hulu / TBS / 日テレ等
