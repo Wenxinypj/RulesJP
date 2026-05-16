@@ -1,0 +1,22 @@
+# > TVer（日本5大电视台联合流媒体）
+
+# 主域名（覆盖 tver.jp、measure.ic.tver.jp、api.tver.jp 等所有子域）
+HOST-SUFFIX,tver.jp,TVer
+
+# 新视频分发平台 Streaks（2025年3月起，地区检测严格，必须日本IP）
+HOST-SUFFIX,streaks.jp,TVer
+
+# 旧视频分发平台 Brightcove（仍用于部分老视频）
+HOST-SUFFIX,boltdns.net,TVer
+HOST-SUFFIX,brightcove.net,TVer
+HOST,edge.api.brightcove.com,TVer
+HOST,players.brightcove.net,TVer
+
+# 分析服务（多个日本流媒体共用，但 TVer 也依赖）
+HOST-SUFFIX,conviva.com,TVer
+
+# 互动营销服务（你原规则保留）
+HOST-SUFFIX,interactive-circle.jp,TVer
+
+# 屏蔽 FOD 视频广告（保留你原来的注释规则）
+# DOMAIN,fod-cm-ad-v.webcdn.stream.ne.jp,REJECT
