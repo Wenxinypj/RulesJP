@@ -1,5 +1,4 @@
-# > U-NEXT
-DOMAIN-SUFFIX,unext.jp
-DOMAIN-SUFFIX,nxtv.jp
-# DOMAIN,streamd01ca-nxtv-jp.akamaized.net
-DOMAIN,us-central1-u-next-apps.cloudfunctions.net
+# > U-NEXT（日本最大VOD平台，地区检测严格）
+DOMAIN-SUFFIX,unext.jp,U-NEXT
+DOMAIN-SUFFIX,nxtv.jp,U-NEXT
+DOMAIN-KEYWORD,nxtv-jp.akamaized.net,U-NEXT
