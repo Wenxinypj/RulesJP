@@ -1,5 +1,6 @@
-# 国外新闻分流集合
-# Services: WSJ / NYT / CNN / Economist / WaPo / BBC / Reuters / FT
+# 国外新闻分流集合（21家媒体）
+# Services: WSJ/NYT/CNN/Economist/WaPo/BBC/Reuters/FT/Bloomberg/Forbes/
+#           Politico/Atlantic/NewYorker/Guardian/AlJazeera/NBC/ABC/Fox/AP/AFP/Time
 # Date: 2026-05-16
 
 # ============================================
@@ -109,3 +110,99 @@ HOST-SUFFIX,ft.com,国外新闻
 HOST-SUFFIX,ftimg.net,国外新闻
 HOST-SUFFIX,ftacademy.cn,国外新闻
 HOST-SUFFIX,ftchinese.com,国外新闻
+
+# ============================================
+# > Bloomberg（彭博社）
+# ============================================
+HOST-SUFFIX,bloomberg.co.kr,国外新闻
+HOST-SUFFIX,bloomberg.com,国外新闻
+HOST-SUFFIX,bloomberg.com.br,国外新闻
+HOST-SUFFIX,bloomberg.fm,国外新闻
+HOST-SUFFIX,bloomberg.tv,国外新闻
+HOST-SUFFIX,bloombergapps.com,国外新闻
+HOST-SUFFIX,bloombergarcade.com,国外新闻
+HOST-SUFFIX,bloombergbeta.com,国外新闻
+HOST-SUFFIX,blpprofessional.com,国外新闻
+HOST-SUFFIX,bmia.org,国外新闻
+HOST-SUFFIX,bnef.com,国外新闻
+HOST-SUFFIX,businessweek.com,国外新闻
+HOST-SUFFIX,businessweekmag.com,国外新闻
+HOST-SUFFIX,bwbx.io,国外新闻
+HOST-SUFFIX,citylab.com,国外新闻
+HOST-SUFFIX,gotraffic.net,国外新闻
+HOST-SUFFIX,londonmithraeum.com,国外新闻
+HOST-SUFFIX,neweconomyforum.com,国外新闻
+HOST-SUFFIX,newenergyfinance.com,国外新闻
+HOST-SUFFIX,quicktake.video,国外新闻
+HOST-SUFFIX,techatbloomberg.com,国外新闻
+HOST-SUFFIX,tictoc.video,国外新闻
+
+# ============================================
+# > Forbes（福布斯）
+# ============================================
+HOST-SUFFIX,forbes.com,国外新闻
+HOST-SUFFIX,forbesimg.com,国外新闻
+HOST-SUFFIX,forbes.net,国外新闻
+
+# ============================================
+# > Politico（美国政治新闻）
+# ============================================
+HOST-SUFFIX,politico.com,国外新闻
+HOST-SUFFIX,politico.eu,国外新闻
+
+# ============================================
+# > The Atlantic（大西洋月刊）
+# ============================================
+HOST-SUFFIX,theatlantic.com,国外新闻
+
+# ============================================
+# > The New Yorker（纽约客）
+# ============================================
+HOST-SUFFIX,newyorker.com,国外新闻
+
+# ============================================
+# > The Guardian（卫报，英国）
+# ============================================
+HOST-SUFFIX,theguardian.com,国外新闻
+HOST-SUFFIX,guardian.co.uk,国外新闻
+HOST-SUFFIX,guim.co.uk,国外新闻
+
+# ============================================
+# > Al Jazeera（半岛电视台，卡塔尔）
+# ============================================
+HOST-SUFFIX,aljazeera.com,国外新闻
+HOST-SUFFIX,aljazeera.net,国外新闻
+
+# ============================================
+# > NBC News
+# ============================================
+HOST-SUFFIX,nbcnews.com,国外新闻
+HOST-SUFFIX,nbcuni.com,国外新闻
+
+# ============================================
+# > ABC News
+# ============================================
+HOST-SUFFIX,abcnews.go.com,国外新闻
+
+# ============================================
+# > Fox News
+# ============================================
+HOST-SUFFIX,foxnews.com,国外新闻
+HOST-SUFFIX,fxstatic.com,国外新闻
+
+# ============================================
+# > AP News（美联社）
+# ============================================
+HOST-SUFFIX,apnews.com,国外新闻
+HOST-SUFFIX,ap.org,国外新闻
+
+# ============================================
+# > AFP（法新社，法国）
+# ============================================
+HOST-SUFFIX,afp.com,国外新闻
+
+# ============================================
+# > Time Magazine（时代周刊）
+# ============================================
+HOST-SUFFIX,time.com,国外新闻
+HOST-SUFFIX,timeinc.net,国外新闻
