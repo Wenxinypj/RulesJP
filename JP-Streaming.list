@@ -66,10 +66,10 @@ HOST-SUFFIX,awsvideo.io,日本流媒体
 # ============================================
 # > NHK ONE（完整版）
 
-# 主域名
+# 主域名（HOST-SUFFIX,nhk 覆盖所有 *.nhk 顶级域名子域）
+HOST-SUFFIX,nhk,日本流媒体
 HOST-SUFFIX,nhk.jp,日本流媒体
 HOST-SUFFIX,nhk.or.jp,日本流媒体
-HOST-SUFFIX,nhk,日本流媒体
 HOST-SUFFIX,nhk.com,日本流媒体
 
 # 视频流 CDN（Akamai）
@@ -77,15 +77,6 @@ HOST-KEYWORD,nhks-vh,日本流媒体
 HOST-KEYWORD,nhk-vh,日本流媒体
 HOST-KEYWORD,nhkworld,日本流媒体
 HOST-KEYWORD,nhkmedias,日本流媒体
-
-# Akamai 的 NHK 子域
-HOST-SUFFIX,nhk-vh.akamaihd.net,日本流媒体
-HOST-SUFFIX,nhks-vh.akamaihd.net,日本流媒体
-
-# Plus（旧版 NHK Plus，仍在运行）
-HOST-SUFFIX,plus.nhk.jp,日本流媒体
-HOST-SUFFIX,movie-s.nhk.or.jp,日本流媒体
-HOST-SUFFIX,movie-a.nhk.or.jp,日本流媒体
 
 # ============================================
 # > 共用 CDN / 流媒体基础设施
