@@ -93,7 +93,21 @@ DOMAIN-SUFFIX,amebaowndme.com,日本流媒体
 DOMAIN-SUFFIX,bucketeer.jp,日本流媒体
 DOMAIN-SUFFIX,winticket.jp,日本流媒体
 DOMAIN-SUFFIX,dokusho-ojikan.jp,日本流媒体
+# ============================================
+# > Yahoo Japan（雅虎日本，门户/邮箱/财经/视频等）
+# 注意：Yahoo Japan 和 Yahoo Inc.（美国雅虎）已分家
+# ============================================
+DOMAIN-SUFFIX,yahoo.co.jp,日本流媒体
+DOMAIN-SUFFIX,yahoo.jp,日本流媒体
+DOMAIN-SUFFIX,yahooapis.jp,日本流媒体
+DOMAIN-SUFFIX,yimg.jp,日本流媒体
+DOMAIN-SUFFIX,ylive.jp,日本流媒体
 
+# ============================================
+# > NewsPicks（日本商业资讯平台）
+# ============================================
+DOMAIN-SUFFIX,newspicks.com,日本流媒体
+DOMAIN-SUFFIX,newspicks.jp,日本流媒体
 # ============================================
 # > 共用 CDN / 流媒体基础设施
 # 注：这些域名被多家日本流媒体共用
