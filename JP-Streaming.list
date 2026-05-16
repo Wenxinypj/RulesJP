@@ -69,7 +69,7 @@ HOST-SUFFIX,awsvideo.io,日本流媒体
 # 主域名
 HOST-SUFFIX,nhk.jp,日本流媒体
 HOST-SUFFIX,nhk.or.jp,日本流媒体
-HOST-SUFFIX,web.nhk,日本流媒体
+HOST-SUFFIX,nhk,日本流媒体
 HOST-SUFFIX,nhk.com,日本流媒体
 
 # 视频流 CDN（Akamai）
