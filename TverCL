@@ -1,3 +1,6 @@
+#!name=TVer
+#!desc=日本TVer流媒体分流规则
+#!date=2026-05-16
 # > TVer（日本5大电视台联合流媒体）
 
 # 主域名（覆盖 tver.jp、measure.ic.tver.jp、api.tver.jp 等所有子域）
