@@ -1,0 +1,111 @@
+# 国外新闻分流集合
+# Services: WSJ / NYT / CNN / Economist / WaPo / BBC / Reuters / FT
+# Date: 2026-05-16
+
+# ============================================
+# > WSJ（华尔街日报）
+# ============================================
+HOST-SUFFIX,wsj.com,国外新闻
+HOST-SUFFIX,wsj.net,国外新闻
+HOST-SUFFIX,dowjones.com,国外新闻
+HOST-SUFFIX,dowjones.io,国外新闻
+HOST-SUFFIX,djimages.com,国外新闻
+USER-AGENT,WSJ*,国外新闻
+USER-AGENT,*WSJ*,国外新闻
+
+# ============================================
+# > NYT（纽约时报）
+# ============================================
+HOST-SUFFIX,nytimes.com,国外新闻
+HOST-SUFFIX,nyt.com,国外新闻
+HOST-SUFFIX,nyt.net,国外新闻
+HOST-SUFFIX,nytco.com,国外新闻
+HOST-SUFFIX,nytimg.com,国外新闻
+HOST-SUFFIX,nytlog.com,国外新闻
+HOST-SUFFIX,nytstyle.com,国外新闻
+HOST-SUFFIX,nytchina.com,国外新闻
+HOST-SUFFIX,nytcn.me,国外新闻
+HOST-SUFFIX,nyti.ms,国外新闻
+HOST-SUFFIX,timestalks.com,国外新闻
+HOST-SUFFIX,tynt.com,国外新闻
+HOST-SUFFIX,d1f1eryiqyjs0r.cloudfront.net,国外新闻
+HOST-SUFFIX,d3lar09xbwlsge.cloudfront.net,国外新闻
+HOST-SUFFIX,d3q1qj9jzsu8nw.cloudfront.net,国外新闻
+HOST-SUFFIX,dc8xl0ndzn2cb.cloudfront.net,国外新闻
+USER-AGENT,NYTimes*,国外新闻
+USER-AGENT,*NYTimes*,国外新闻
+
+# ============================================
+# > CNN
+# ============================================
+HOST-SUFFIX,cnn.com,国外新闻
+HOST-SUFFIX,cnn.io,国外新闻
+HOST-SUFFIX,cnn.it,国外新闻
+HOST-SUFFIX,cnnarabic.com,国外新闻
+HOST-SUFFIX,cnnlabs.com,国外新闻
+HOST-SUFFIX,cnnmoney.ch,国外新闻
+
+# ============================================
+# > The Economist（经济学人）
+# ============================================
+HOST-SUFFIX,economist.com,国外新闻
+USER-AGENT,Economist*,国外新闻
+USER-AGENT,*Economist*,国外新闻
+
+# ============================================
+# > Washington Post（华盛顿邮报）
+# ============================================
+HOST-SUFFIX,washingtonpost.com,国外新闻
+HOST-SUFFIX,wpdigital.net,国外新闻
+HOST-SUFFIX,washpost.com,国外新闻
+HOST,cdn-api.arcpublishing.com,国外新闻
+
+# ============================================
+# > BBC（英国广播公司）
+# 注意：BBC iPlayer 视频流需英国节点
+# ============================================
+HOST-SUFFIX,bbc,国外新闻
+HOST-SUFFIX,bbc.co,国外新闻
+HOST-SUFFIX,bbc.co.uk,国外新闻
+HOST-SUFFIX,bbc.com,国外新闻
+HOST-SUFFIX,bbc.in,国外新闻
+HOST-SUFFIX,bbc.net.uk,国外新闻
+HOST-SUFFIX,bbcchinese.com,国外新闻
+HOST-SUFFIX,bbci.co,国外新闻
+HOST-SUFFIX,bbci.co.uk,国外新闻
+HOST-SUFFIX,bbcmedia.co.uk,国外新闻
+HOST-SUFFIX,bbcpersian.com,国外新闻
+HOST-SUFFIX,bbcverticals.com,国外新闻
+HOST-SUFFIX,bidi.net.uk,国外新闻
+HOST-SUFFIX,bbcfmt.hs.llnwd.net,国外新闻
+HOST-SUFFIX,bbcfmt.s.llnwi.net,国外新闻
+HOST,aod-dash-uk-live.akamaized.net,国外新闻
+HOST,aod-hls-uk-live.akamaized.net,国外新闻
+HOST,as-dash-uk-live.akamaized.net,国外新闻
+HOST,as-hls-uk-live.akamaized.net,国外新闻
+HOST,vod-dash-uk-live.akamaized.net,国外新闻
+HOST,vod-dash-ww-live.akamaized.net,国外新闻
+HOST,vod-hls-uk-live.akamaized.net,国外新闻
+HOST,vod-sub-uk-live.akamaized.net,国外新闻
+HOST,vod-thumb-uk-live.akamaized.net,国外新闻
+HOST,vod-thumb-ww-live.akamaized.net,国外新闻
+HOST,vs-cmaf-push-uk-live.akamaized.net,国外新闻
+HOST-KEYWORD,bbcfmt,国外新闻
+HOST-KEYWORD,uk-live,国外新闻
+USER-AGENT,BBCiPlayer*,国外新闻
+
+# ============================================
+# > Reuters（路透社）
+# ============================================
+HOST-SUFFIX,reuters.com,国外新闻
+HOST-SUFFIX,reutersmedia.net,国外新闻
+HOST-SUFFIX,thomsonreuters.com,国外新闻
+HOST-SUFFIX,trbimg.com,国外新闻
+
+# ============================================
+# > FT（金融时报）
+# ============================================
+HOST-SUFFIX,ft.com,国外新闻
+HOST-SUFFIX,ftimg.net,国外新闻
+HOST-SUFFIX,ftacademy.cn,国外新闻
+HOST-SUFFIX,ftchinese.com,国外新闻
