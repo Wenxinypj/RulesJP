@@ -1,5 +1,5 @@
 #!name=国外新闻
-#!desc=国外主流新闻媒体分流（WSJ / NYT / CNN / Economist / WaPo / BBC / Reuters / FT / Bloomberg / Forbes）
+#!desc=国外主流新闻媒体分流（21家：WSJ/NYT/CNN/Economist/WaPo/BBC/Reuters/FT/Bloomberg/Forbes/Politico/Atlantic/NewYorker/Guardian/AlJazeera/NBC/ABC/FoxNews/AP/AFP/Time）
 #!date=2026-05-16
 
 # ============================================
@@ -147,3 +147,66 @@ DOMAIN-SUFFIX,tictoc.video,国外新闻
 DOMAIN-SUFFIX,forbes.com,国外新闻
 DOMAIN-SUFFIX,forbesimg.com,国外新闻
 DOMAIN-SUFFIX,forbes.net,国外新闻
+
+# ============================================
+# > Politico（美国政治新闻）
+# ============================================
+DOMAIN-SUFFIX,politico.com,国外新闻
+DOMAIN-SUFFIX,politico.eu,国外新闻
+
+# ============================================
+# > The Atlantic（大西洋月刊）
+# ============================================
+DOMAIN-SUFFIX,theatlantic.com,国外新闻
+
+# ============================================
+# > The New Yorker（纽约客）
+# ============================================
+DOMAIN-SUFFIX,newyorker.com,国外新闻
+
+# ============================================
+# > The Guardian（卫报，英国）
+# ============================================
+DOMAIN-SUFFIX,theguardian.com,国外新闻
+DOMAIN-SUFFIX,guardian.co.uk,国外新闻
+DOMAIN-SUFFIX,guim.co.uk,国外新闻
+
+# ============================================
+# > Al Jazeera（半岛电视台，卡塔尔）
+# ============================================
+DOMAIN-SUFFIX,aljazeera.com,国外新闻
+DOMAIN-SUFFIX,aljazeera.net,国外新闻
+
+# ============================================
+# > NBC News
+# ============================================
+DOMAIN-SUFFIX,nbcnews.com,国外新闻
+DOMAIN-SUFFIX,nbcuni.com,国外新闻
+
+# ============================================
+# > ABC News
+# ============================================
+DOMAIN-SUFFIX,abcnews.go.com,国外新闻
+
+# ============================================
+# > Fox News
+# ============================================
+DOMAIN-SUFFIX,foxnews.com,国外新闻
+DOMAIN-SUFFIX,fxstatic.com,国外新闻
+
+# ============================================
+# > AP News（美联社）
+# ============================================
+DOMAIN-SUFFIX,apnews.com,国外新闻
+DOMAIN-SUFFIX,ap.org,国外新闻
+
+# ============================================
+# > AFP（法新社，法国）
+# ============================================
+DOMAIN-SUFFIX,afp.com,国外新闻
+
+# ============================================
+# > Time Magazine（时代周刊）
+# ============================================
+DOMAIN-SUFFIX,time.com,国外新闻
+DOMAIN-SUFFIX,timeinc.net,国外新闻
