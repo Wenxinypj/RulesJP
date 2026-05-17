@@ -23,7 +23,6 @@ HOST-SUFFIX,fujitv.co.jp,日本流媒体
 HOST,fod.zendesk.com,日本流媒体
 HOST,measure.ic.tver.jp,日本流媒体
 HOST-SUFFIX,j-stream.jp,日本流媒体
-HOST-SUFFIX,huacloud.net,日本流媒体
 # ============================================
 # > U-NEXT（日本最大VOD平台，地区检测严格）
 # ============================================
@@ -111,3 +110,4 @@ USER-AGENT,*SmartNews*,日本流媒体
 # ============================================
 HOST-SUFFIX,streaks.jp,日本流媒体
 HOST-SUFFIX,stream.ne.jp,日本流媒体
+HOST-SUFFIX,huacloud.net,日本流媒体
