@@ -121,6 +121,29 @@ DOMAIN-SUFFIX,smartnews-ads.com,日本流媒体
 USER-AGENT,SmartNews*,日本流媒体
 USER-AGENT,*SmartNews*,日本流媒体
 # ============================================
+# > AbemaTV（日本网络电视）
+# ============================================
+DOMAIN,abematv.akamaized.net,日本流媒体
+DOMAIN,ds-linear-abematv.akamaized.net,日本流媒体
+DOMAIN,ds-vod-abematv.akamaized.net,日本流媒体
+DOMAIN,linear-abematv.akamaized.net,日本流媒体
+DOMAIN,vod-abematv.akamaized.net,日本流媒体
+DOMAIN-SUFFIX,abema-tv.com,日本流媒体
+DOMAIN-SUFFIX,abema.io,日本流媒体
+DOMAIN-SUFFIX,abema.tv,日本流媒体
+DOMAIN-SUFFIX,adx.promo,日本流媒体
+DOMAIN-SUFFIX,ameba.jp,日本流媒体
+DOMAIN-SUFFIX,amebame.com,日本流媒体
+DOMAIN-SUFFIX,amebaownd.com,日本流媒体
+DOMAIN-SUFFIX,amebaowndme.com,日本流媒体
+DOMAIN-SUFFIX,ameblo.jp,日本流媒体
+DOMAIN-SUFFIX,bucketeer.jp,日本流媒体
+DOMAIN-SUFFIX,dokusho-ojikan.jp,日本流媒体
+DOMAIN-SUFFIX,hayabusa.dev,日本流媒体
+DOMAIN-SUFFIX,hayabusa.io,日本流媒体
+DOMAIN-SUFFIX,hayabusa.media,日本流媒体
+DOMAIN-SUFFIX,winticket.jp,日本流媒体
+# ============================================
 # > 共用 CDN / 流媒体基础设施
 # 注：这些域名被多家日本流媒体共用
 # - streaks.jp: TVer / Hulu / TBS / 日テレ等
