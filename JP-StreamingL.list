@@ -78,23 +78,29 @@ DOMAIN-KEYWORD,nhkworld,日本流媒体
 # > AbemaTV（CyberAgent 旗下网络电视）
 # 含 Ameba 系账号体系
 # ============================================
-DOMAIN-SUFFIX,abema.tv,日本流媒体
-DOMAIN-SUFFIX,abema.io,日本流媒体
 DOMAIN-SUFFIX,abema-tv.com,日本流媒体
-DOMAIN-SUFFIX,abematv.co.jp,日本流媒体
-DOMAIN-SUFFIX,hayabusa.io,日本流媒体
-DOMAIN-SUFFIX,hayabusa.dev,日本流媒体
-DOMAIN-SUFFIX,hayabusa.media,日本流媒体
-DOMAIN-KEYWORD,abematv.akamaized.net,日本流媒体
+DOMAIN-SUFFIX,abema.io,日本流媒体
+DOMAIN-SUFFIX,abema.tv,日本流媒体
+DOMAIN-SUFFIX,abematv.akamaized.net,日本流媒体
 DOMAIN-SUFFIX,adx.promo,日本流媒体
 DOMAIN-SUFFIX,ameba.jp,日本流媒体
-DOMAIN-SUFFIX,ameblo.jp,日本流媒体
 DOMAIN-SUFFIX,amebame.com,日本流媒体
 DOMAIN-SUFFIX,amebaownd.com,日本流媒体
 DOMAIN-SUFFIX,amebaowndme.com,日本流媒体
+DOMAIN-SUFFIX,ameblo.jp,日本流媒体
 DOMAIN-SUFFIX,bucketeer.jp,日本流媒体
-DOMAIN-SUFFIX,winticket.jp,日本流媒体
+DOMAIN-SUFFIX,d1otoma47x30pg.cloudfront.net,日本流媒体
+DOMAIN-SUFFIX,d2wy8f7a9ursnm.cloudfront.net,日本流媒体
 DOMAIN-SUFFIX,dokusho-ojikan.jp,日本流媒体
+DOMAIN-SUFFIX,ds-linear-abematv.akamaized.net,日本流媒体
+DOMAIN-SUFFIX,ds-vod-abematv.akamaized.net,日本流媒体
+DOMAIN-SUFFIX,hayabusa.dev,日本流媒体
+DOMAIN-SUFFIX,hayabusa.io,日本流媒体
+DOMAIN-SUFFIX,hayabusa.media,日本流媒体
+DOMAIN-SUFFIX,linear-abematv.akamaized.net,日本流媒体
+DOMAIN-SUFFIX,vod-abematv.akamaized.net,日本流媒体
+DOMAIN-SUFFIX,winticket.jp,日本流媒体
+DOMAIN-KEYWORD,abematv.akamaized.net,日本流媒体
 # ============================================
 # > Yahoo Japan（雅虎日本，门户/邮箱/财经/视频等）
 # 注意：Yahoo Japan 和 Yahoo Inc.（美国雅虎）已分家
