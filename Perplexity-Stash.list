@@ -1,0 +1,7 @@
+# > Perplexity AI · Stash 规则集版
+# 引用方式: RULE-SET,<url>,Perplexity
+
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,pplx-res.cloudinary.com
