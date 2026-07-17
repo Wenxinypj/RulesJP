@@ -1,0 +1,161 @@
+# 日本流媒体分流集合 · Stash 规则集版
+# Services: TVer / FOD / U-NEXT / Hulu Japan / Telasa / DMM / NHK ONE / AbemaTV
+#           + Yahoo Japan / NewsPicks / SmartNews
+# Format: Stash (Clash) classical rule-set —— 行内不带策略名
+# 引用方式: RULE-SET,<url>,日本流媒体
+# Date: 2026-05-16
+#
+# 转换说明:
+# - USER-AGENT 规则已全部移除（Stash 不支持）。FOD/SmartNews 的 App 流量
+#   均已被对应域名规则覆盖，不影响分流和播放。
+# - 已去除若干重复/冗余条目，并补充少量域名，见各段注释。
+
+# ============================================
+# > TVer（日本5大电视台联合流媒体）
+# 新视频平台 Streaks（2025年3月起），地区检测严格
+# ============================================
+DOMAIN-SUFFIX,tver.jp
+DOMAIN-SUFFIX,tver.co.jp
+# ↑ 补充: TVer 公司域，部分 API/跳转会用到
+DOMAIN-SUFFIX,boltdns.net
+DOMAIN-SUFFIX,brightcove.net
+DOMAIN,edge.api.brightcove.com
+DOMAIN,players.brightcove.net
+DOMAIN-SUFFIX,conviva.com
+# ↑ 注意: Brightcove / Conviva 是全球性 CDN 和播放统计服务，
+#   不止日本流媒体在用。整条走日本节点一般无害，但若发现
+#   其他视频服务行为异常，可优先排查这几条。
+DOMAIN-SUFFIX,interactive-circle.jp
+
+# ============================================
+# > FOD（フジテレビオンデマンド）
+# USER-AGENT,FOD* 已移除, App 流量由 fujitv.co.jp / j-stream.jp /
+# stream.ne.jp（见共用CDN段）覆盖
+# ============================================
+DOMAIN-SUFFIX,fujitv.co.jp
+DOMAIN,fod.zendesk.com
+DOMAIN,measure.ic.tver.jp
+DOMAIN-SUFFIX,j-stream.jp
+
+# ============================================
+# > U-NEXT（日本最大VOD平台，地区检测严格）
+# ============================================
+DOMAIN-SUFFIX,unext.jp
+DOMAIN-SUFFIX,unext.co.jp
+# ↑ 补充: U-NEXT 公司域
+DOMAIN-SUFFIX,nxtv.jp
+DOMAIN-KEYWORD,nxtv-jp
+# ↑ 原规则是 HOST-KEYWORD,nxtv-jp.akamaized.net（整串当关键字），
+#   已简化为 nxtv-jp，可同时匹配 Akamai 各前缀的流媒体域名
+
+# ============================================
+# > Hulu Japan（日本テレビ系，反VPN严格）
+# 2019年9月起从 happyon.jp 改回 hulu.jp
+# ============================================
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,happyon-cdn.jp
+DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hjholdings.tv
+# ↑ 原文件中 prod.hjholdings.tv 已被 hjholdings.tv 后缀覆盖，删去重复条
+DOMAIN-SUFFIX,yb.uncn.jp
+
+# ============================================
+# > Telasa（KDDI × TV Asahi 合资SVOD）
+# 前身为 au Video Pass（2020年4月改名）
+# ============================================
+DOMAIN-SUFFIX,telasa.jp
+DOMAIN-SUFFIX,videopass.jp
+DOMAIN-SUFFIX,auone.jp
+# ↑ id.auone-net.jp / connect.auone.jp 均被上一条后缀覆盖，删去重复条
+DOMAIN,auid.kddi.com
+DOMAIN-SUFFIX,blendvision.com
+
+# ============================================
+# > DMM（综合娱乐平台，含 DMM TV / FANZA）
+# ============================================
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm-extension.com
+DOMAIN-SUFFIX,dmm-pics.com
+DOMAIN-SUFFIX,awsvideo.io
+
+# ============================================
+# > NHK ONE（2025年10月起从 NHK Plus 升级）
+# 旧域名 nhk.or.jp 仍在使用
+# ============================================
+DOMAIN-SUFFIX,nhk.jp
+DOMAIN-SUFFIX,nhk.or.jp
+DOMAIN-SUFFIX,nhk.com
+# ↑ 原文件的 HOST-SUFFIX,nhk 已删除: 与 BBC 不同, NHK 并未持有
+#   .nhk 顶级域名, 该条实际匹配不到任何真实域名, 属无效规则
+
+# 视频流 CDN（Akamai）
+DOMAIN-KEYWORD,nhks-vh
+DOMAIN-KEYWORD,nhk-vh
+DOMAIN-KEYWORD,nhkworld
+DOMAIN-KEYWORD,nhkmedias
+
+# ============================================
+# > Yahoo Japan（雅虎日本，门户/邮箱/财经/视频等）
+# 注意：Yahoo Japan 和 Yahoo Inc.（美国雅虎）已分家
+# ============================================
+DOMAIN-SUFFIX,yahoo.co.jp
+DOMAIN-SUFFIX,yahoo.jp
+DOMAIN-SUFFIX,yahooapis.jp
+DOMAIN-SUFFIX,yimg.jp
+DOMAIN-SUFFIX,ylive.jp
+DOMAIN-SUFFIX,slim01.jp
+DOMAIN,dpg5xwfcfl8qq.cloudfront.net
+DOMAIN,dp57jmgi8kb6i.cloudfront.net
+
+# ============================================
+# > NewsPicks（日本商业资讯平台）
+# ============================================
+DOMAIN-SUFFIX,newspicks.com
+DOMAIN-SUFFIX,newspicks.jp
+
+# ============================================
+# > SmartNews（日本最大新闻聚合App）
+# USER-AGENT,SmartNews* 已移除, App 流量由下列域名覆盖
+# ============================================
+DOMAIN-SUFFIX,smartnews.com
+DOMAIN-SUFFIX,smartnews.co.jp
+DOMAIN-SUFFIX,smartnews.jp
+DOMAIN-SUFFIX,smartnews.be
+DOMAIN-SUFFIX,smartnews-ads.com
+
+# ============================================
+# > AbemaTV（日本网络电视）
+# ============================================
+DOMAIN-SUFFIX,abema-tv.com
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,adx.promo
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,amebame.com
+DOMAIN-SUFFIX,amebaownd.com
+DOMAIN-SUFFIX,amebaowndme.com
+DOMAIN-SUFFIX,ameblo.jp
+DOMAIN-SUFFIX,bucketeer.jp
+DOMAIN-SUFFIX,d1otoma47x30pg.cloudfront.net
+DOMAIN-SUFFIX,d2wy8f7a9ursnm.cloudfront.net
+DOMAIN-SUFFIX,dokusho-ojikan.jp
+DOMAIN-SUFFIX,hayabusa.dev
+DOMAIN-SUFFIX,hayabusa.io
+DOMAIN-SUFFIX,hayabusa.media
+DOMAIN-SUFFIX,winticket.jp
+DOMAIN-KEYWORD,abematv
+# ↑ 原文件对 abematv.akamaized.net 同时写了 SUFFIX 和 KEYWORD,
+#   且各线路域名 (ds-linear/ds-vod/linear/vod) 分列了4条。
+#   现统一为 DOMAIN-KEYWORD,abematv 一条, 可覆盖 Akamai 上
+#   所有 *abematv* 流媒体域名, 包括未来新增的线路前缀
+
+# ============================================
+# > 共用 CDN / 流媒体基础设施
+# 注：这些域名被多家日本流媒体共用
+# - streaks.jp: TVer / Hulu / TBS / 日テレ等
+# - stream.ne.jp: FOD / NHK 等（NTT cdnext）
+# ============================================
+DOMAIN-SUFFIX,streaks.jp
+DOMAIN-SUFFIX,stream.ne.jp
