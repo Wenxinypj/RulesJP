@@ -1,0 +1,210 @@
+# 国外新闻分流集合（21家媒体）· Stash 规则集版
+# Services: WSJ/NYT/CNN/Economist/WaPo/BBC/Reuters/FT/Bloomberg/Forbes/
+#           Politico/Atlantic/NewYorker/Guardian/AlJazeera/NBC/ABC/Fox/AP/AFP/Time
+# Format: Stash (Clash) classical rule-set —— 行内不带策略名
+# 若直接写入主配置 rules 段，请在每行末尾追加 ,国外新闻
+# Date: 2026-05-16
+
+# ============================================
+# > WSJ（华尔街日报）
+# ============================================
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wsj.net
+DOMAIN-SUFFIX,dowjones.com
+DOMAIN-SUFFIX,dowjones.io
+DOMAIN-SUFFIX,djimages.com
+# USER-AGENT,WSJ* —— Stash 不支持 USER-AGENT 规则，已移除
+# USER-AGENT,*WSJ* —— Stash 不支持 USER-AGENT 规则，已移除
+
+# ============================================
+# > NYT（纽约时报）
+# ============================================
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,nyt.com
+DOMAIN-SUFFIX,nyt.net
+DOMAIN-SUFFIX,nytco.com
+DOMAIN-SUFFIX,nytimg.com
+DOMAIN-SUFFIX,nytlog.com
+DOMAIN-SUFFIX,nytstyle.com
+DOMAIN-SUFFIX,nytchina.com
+DOMAIN-SUFFIX,nytcn.me
+DOMAIN-SUFFIX,nyti.ms
+DOMAIN-SUFFIX,timestalks.com
+DOMAIN-SUFFIX,tynt.com
+DOMAIN-SUFFIX,d1f1eryiqyjs0r.cloudfront.net
+DOMAIN-SUFFIX,d3lar09xbwlsge.cloudfront.net
+DOMAIN-SUFFIX,d3q1qj9jzsu8nw.cloudfront.net
+DOMAIN-SUFFIX,dc8xl0ndzn2cb.cloudfront.net
+# USER-AGENT,NYTimes* —— Stash 不支持 USER-AGENT 规则，已移除
+# USER-AGENT,*NYTimes* —— Stash 不支持 USER-AGENT 规则，已移除
+
+# ============================================
+# > CNN
+# ============================================
+DOMAIN-SUFFIX,cnn.com
+DOMAIN-SUFFIX,cnn.io
+DOMAIN-SUFFIX,cnn.it
+DOMAIN-SUFFIX,cnnarabic.com
+DOMAIN-SUFFIX,cnnlabs.com
+DOMAIN-SUFFIX,cnnmoney.ch
+
+# ============================================
+# > The Economist（经济学人）
+# ============================================
+DOMAIN-SUFFIX,economist.com
+# USER-AGENT,Economist* —— Stash 不支持 USER-AGENT 规则，已移除
+# USER-AGENT,*Economist* —— Stash 不支持 USER-AGENT 规则，已移除
+
+# ============================================
+# > Washington Post（华盛顿邮报）
+# ============================================
+DOMAIN-SUFFIX,washingtonpost.com
+DOMAIN-SUFFIX,wpdigital.net
+DOMAIN-SUFFIX,washpost.com
+DOMAIN,cdn-api.arcpublishing.com
+
+# ============================================
+# > BBC（英国广播公司）
+# 注意：BBC iPlayer 视频流需英国节点
+# ============================================
+DOMAIN-SUFFIX,bbc
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbc.in
+DOMAIN-SUFFIX,bbc.net.uk
+DOMAIN-SUFFIX,bbcchinese.com
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,bbcmedia.co.uk
+DOMAIN-SUFFIX,bbcpersian.com
+DOMAIN-SUFFIX,bbcverticals.com
+DOMAIN-SUFFIX,bidi.net.uk
+DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
+DOMAIN-SUFFIX,bbcfmt.s.llnwi.net
+DOMAIN,aod-dash-uk-live.akamaized.net
+DOMAIN,aod-hls-uk-live.akamaized.net
+DOMAIN,as-dash-uk-live.akamaized.net
+DOMAIN,as-hls-uk-live.akamaized.net
+DOMAIN,vod-dash-uk-live.akamaized.net
+DOMAIN,vod-dash-ww-live.akamaized.net
+DOMAIN,vod-hls-uk-live.akamaized.net
+DOMAIN,vod-sub-uk-live.akamaized.net
+DOMAIN,vod-thumb-uk-live.akamaized.net
+DOMAIN,vod-thumb-ww-live.akamaized.net
+DOMAIN,vs-cmaf-push-uk-live.akamaized.net
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
+# USER-AGENT,BBCiPlayer* —— Stash 不支持 USER-AGENT 规则，已移除
+
+# ============================================
+# > Reuters（路透社）
+# ============================================
+DOMAIN-SUFFIX,reuters.com
+DOMAIN-SUFFIX,reutersmedia.net
+DOMAIN-SUFFIX,thomsonreuters.com
+DOMAIN-SUFFIX,trbimg.com
+
+# ============================================
+# > FT（金融时报）
+# ============================================
+DOMAIN-SUFFIX,ft.com
+DOMAIN-SUFFIX,ftimg.net
+DOMAIN-SUFFIX,ftacademy.cn
+DOMAIN-SUFFIX,ftchinese.com
+
+# ============================================
+# > Bloomberg（彭博社）
+# ============================================
+DOMAIN-SUFFIX,bloomberg.co.kr
+DOMAIN-SUFFIX,bloomberg.com
+DOMAIN-SUFFIX,bloomberg.com.br
+DOMAIN-SUFFIX,bloomberg.fm
+DOMAIN-SUFFIX,bloomberg.tv
+DOMAIN-SUFFIX,bloombergapps.com
+DOMAIN-SUFFIX,bloombergarcade.com
+DOMAIN-SUFFIX,bloombergbeta.com
+DOMAIN-SUFFIX,blpprofessional.com
+DOMAIN-SUFFIX,bmia.org
+DOMAIN-SUFFIX,bnef.com
+DOMAIN-SUFFIX,businessweek.com
+DOMAIN-SUFFIX,businessweekmag.com
+DOMAIN-SUFFIX,bwbx.io
+DOMAIN-SUFFIX,citylab.com
+DOMAIN-SUFFIX,gotraffic.net
+DOMAIN-SUFFIX,londonmithraeum.com
+DOMAIN-SUFFIX,neweconomyforum.com
+DOMAIN-SUFFIX,newenergyfinance.com
+DOMAIN-SUFFIX,quicktake.video
+DOMAIN-SUFFIX,techatbloomberg.com
+DOMAIN-SUFFIX,tictoc.video
+
+# ============================================
+# > Forbes（福布斯）
+# ============================================
+DOMAIN-SUFFIX,forbes.com
+DOMAIN-SUFFIX,forbesimg.com
+DOMAIN-SUFFIX,forbes.net
+
+# ============================================
+# > Politico（美国政治新闻）
+# ============================================
+DOMAIN-SUFFIX,politico.com
+DOMAIN-SUFFIX,politico.eu
+
+# ============================================
+# > The Atlantic（大西洋月刊）
+# ============================================
+DOMAIN-SUFFIX,theatlantic.com
+
+# ============================================
+# > The New Yorker（纽约客）
+# ============================================
+DOMAIN-SUFFIX,newyorker.com
+
+# ============================================
+# > The Guardian（卫报，英国）
+# ============================================
+DOMAIN-SUFFIX,theguardian.com
+DOMAIN-SUFFIX,guardian.co.uk
+DOMAIN-SUFFIX,guim.co.uk
+
+# ============================================
+# > Al Jazeera（半岛电视台，卡塔尔）
+# ============================================
+DOMAIN-SUFFIX,aljazeera.com
+DOMAIN-SUFFIX,aljazeera.net
+
+# ============================================
+# > NBC News
+# ============================================
+DOMAIN-SUFFIX,nbcnews.com
+DOMAIN-SUFFIX,nbcuni.com
+
+# ============================================
+# > ABC News
+# ============================================
+DOMAIN-SUFFIX,abcnews.go.com
+
+# ============================================
+# > Fox News
+# ============================================
+DOMAIN-SUFFIX,foxnews.com
+DOMAIN-SUFFIX,fxstatic.com
+
+# ============================================
+# > AP News（美联社）
+# ============================================
+DOMAIN-SUFFIX,apnews.com
+DOMAIN-SUFFIX,ap.org
+
+# ============================================
+# > AFP（法新社，法国）
+# ============================================
+DOMAIN-SUFFIX,afp.com
+
+# ============================================
+# > Time Magazine（时代周刊）
+# ============================================
+DOMAIN-SUFFIX,time.com
+DOMAIN-SUFFIX,timeinc.net
