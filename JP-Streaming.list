@@ -6,6 +6,11 @@
 # > TVer（日本5大电视台联合流媒体）
 # 新视频平台 Streaks（2025年3月起），地区检测严格
 # ============================================
+host, imasdk.googleapis.com, 日本流媒体
+host-suffix, socdm.com, 日本流媒体
+host-suffix, fout.jp, 日本流媒体
+host-suffix, adtdp.com, 日本流媒体
+host-suffix, nr-data.net, 日本流媒体
 HOST-SUFFIX,tver.jp,日本流媒体
 HOST-SUFFIX,boltdns.net,日本流媒体
 HOST-SUFFIX,brightcove.net,日本流媒体
@@ -13,6 +18,7 @@ HOST,edge.api.brightcove.com,日本流媒体
 HOST,players.brightcove.net,日本流媒体
 HOST-SUFFIX,conviva.com,日本流媒体
 HOST-SUFFIX,interactive-circle.jp,日本流媒体
+
 
 # ============================================
 # > FOD（フジテレビオンデマンド）
