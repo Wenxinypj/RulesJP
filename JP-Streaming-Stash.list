@@ -22,6 +22,11 @@ DOMAIN-SUFFIX,brightcove.net
 DOMAIN,edge.api.brightcove.com
 DOMAIN,players.brightcove.net
 DOMAIN-SUFFIX,conviva.com
+DOMAIN,imasdk.googleapis.com,日本流媒体
+DOMAIN-SUFFIX,socdm.com,日本流媒体
+DOMAIN-SUFFIX,fout.jp,日本流媒体
+DOMAIN-SUFFIX,adtdp.com,日本流媒
+DOMAIN-SUFFIX,nr-data.net,日本流媒体
 # ↑ 注意: Brightcove / Conviva 是全球性 CDN 和播放统计服务，
 #   不止日本流媒体在用。整条走日本节点一般无害，但若发现
 #   其他视频服务行为异常，可优先排查这几条。
