@@ -6,6 +6,11 @@
 # > TVer（日本5大电视台联合流媒体）
 # 新视频平台 Streaks（2025年3月起），地区检测严格
 # ============================================
+DOMAIN,imasdk.googleapis.com,日本流媒体
+DOMAIN-SUFFIX,socdm.com,日本流媒体
+DOMAIN-SUFFIX,fout.jp,日本流媒体
+DOMAIN-SUFFIX,adtdp.com,日本流媒体
+DOMAIN-SUFFIX,nr-data.net,日本流媒体
 DOMAIN-SUFFIX,tver.jp,日本流媒体
 DOMAIN-SUFFIX,boltdns.net,日本流媒体
 DOMAIN-SUFFIX,brightcove.net,日本流媒体
