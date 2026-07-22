@@ -92,6 +92,7 @@ DOMAIN-SUFFIX,awsvideo.io
 DOMAIN-SUFFIX,nhk.jp
 DOMAIN-SUFFIX,nhk.or.jp
 DOMAIN-SUFFIX,nhk.com
+DOMAIN-SUFFIX,nhk
 # ↑ 原文件的 HOST-SUFFIX,nhk 已删除: 与 BBC 不同, NHK 并未持有
 #   .nhk 顶级域名, 该条实际匹配不到任何真实域名, 属无效规则
 
